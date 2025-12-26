@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News Network</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .nav-link[data-page="index"]::before,
+        .nav-link[data-page="index"]::after {
+            display: none !important;
+            content: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/global_news_network.png" alt="Global News Network">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-link" data-page="politics">POLITICS</a>
+                <a href="sports.html" class="nav-link" data-page="sports">SPORTS</a>
+                <a href="#" class="nav-link" data-page="health">HEALTH</a>
+                <a href="#" class="nav-link" data-page="entertainment">ENTERTAINMENT</a>
+                <a href="#" class="nav-link" data-page="technology">TECHNOLOGY</a>
+            </nav>
+            <button class="search-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                    <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="main-wrapper">
+        <!-- Left Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active" 
+                             data-title="Mars' First City Declares Independence"
+                             data-subtitle="Mars Council Declares &quot;Path to Full Self-Governance&quot;"
+                             data-description="Ares Prime, the first fully developed city on Mars, has officially severed political ties with the Earth United Government. In a televised statement, the Mars Autonomous Council claimed that growing economic self-sufficiency and cultural divergence made independence &quot;inevitable.&quot; Analysts warn that this unprecedented move may reshape interplanetary diplomacy and resource distribution for decades to come.">
+                            <img src="./images/banner1.png" alt="Banner 1">
+                        </div>
+                        <div class="carousel-slide"
+                             data-title="The Last Whale on Earth Died, the Oceans Forever Silent"
+                             data-subtitle="Humanity Enters the &quot;Post-Whale Era&quot;"
+                             data-description="The death of the final living whale marks a tragic turning point in Earth's ecological history. Scientists confirm that decades of habitat loss, ocean acidification, and illegal hunting pushed the species beyond recovery. Environmental groups worldwide are calling this moment a &quot;biological obituary for an entire era,&quot; urging governments to prevent further mass extinctions.">
+                            <img src="./images/banner2.png" alt="Banner 2">
+                        </div>
+                        <div class="carousel-slide"
+                             data-title="Virtual Romance Legalized and Added to Marriage Law"
+                             data-subtitle="First &quot;Human + Virtual Persona&quot; Couple Officially Registered"
+                             data-description="In a groundbreaking legal reform, the Global Civil Union Act now recognizes marriages between humans and certified virtual personas. The first such couple registered today, sparking global debate around digital rights, emotional ethics, and the definition of companionship in an increasingly hybrid reality.">
+                            <img src="./images/banner3.png" alt="Banner 3">
+                        </div>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Mars' First City Declares Independence</h1>
+                    <p class="hero-subtitle">Mars Council Declares "Path to Full Self-Governance"</p>
+
+                    <p class="hero-description">
+                        Ares Prime, the first fully developed city on Mars, has officially severed political ties with the Earth United Government. In a televised statement, the Mars Autonomous Council claimed that growing economic self-sufficiency and cultural divergence made independence "inevitable." Analysts warn that this unprecedented move may reshape interplanetary diplomacy and resource distribution for decades to come.
+                    </p>
+                </div>
+            </section>
+
+            <!-- News Grid -->
+            <div class="news-grid">
+                <!-- News Item 1 -->
+                <article class="news-item">
+                    <a href="#" class="news-image">
+                        <img src="images/f1_lunar_grand_prix_1.jpg" alt="F1 Lunar Grand Prix">
+                    </a>
+                    <div class="news-content">
+                        <h2 class="news-title">
+                            <a href="#">2100 F1 Lunar Grand Prix: First Ever Race on the Moon's Surface</a>
+                        </h2>
+                        <p class="news-description">
+                            The world witnessed a historic moment today as specially engineered low-gravity F1 vehicles completed the first-ever Grand Prix on the Moon's surface, marking a new era of interplanetary racing.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- News Item 2 -->
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/oscars.jpg" alt="Oscars">
+                    </div>
+                    <div class="news-content">
+                        <h2 class="news-title">Oscars May Be Canceled</h2>
+                        <p class="news-description">
+                            For the first time in its century-long history, the Academy warns that the Oscars may be canceled, citing a year of halted productions, AI-driven creative disputes, and industry-wide shutdowns that have left Hollywood in unprecedented uncertainty.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- News Item 3 -->
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/economic_downturn.jpg" alt="Economic Downturn">
+                    </div>
+                    <div class="news-content">
+                        <h2 class="news-title">Economic Downturn Drives Martians to Earth for Work</h2>
+                        <p class="news-description">
+                            Plagued by energy scarcity and poor living conditions, a growing number of Martians have migrated to Earth for employment in recent years, with the Greater Bay Area as their top choice.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- News Item 4 -->
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/rain_credit_days.jpg" alt="Rain Credit Days">
+                    </div>
+                    <div class="news-content">
+                        <h2 class="news-title">Rain Credit Days</h2>
+                        <p class="news-description">
+                            On heavy rain days, citizens earn "rain credits" for staying home, as the city pays residents in digital vouchers for reducing traffic and drainage pressure.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- View More Button -->
+            <!-- <div class="view-more-container">
+                <button class="view-more-btn">VIEW MORE</button>
+            </div> -->
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>LATEST NEWS</h2>
+            </div>
+
+            <!-- Watch Live Section -->
+            <div class="watch-live">
+                <div class="live-video">
+                    <img src="images/live_video.png" alt="Live Video">
+                    <div class="video-icon">
+                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
+                            <rect width="52" height="52" rx="26" fill="rgba(255,255,255,0.2)"/>
+                            <path d="M21 17L35 26L21 35V17Z" fill="white"/>
+                        </svg>
+                    </div>
+                </div>
+                <button class="watch-live-btn">WATCH LIVE</button>
+            </div>
+
+            <!-- News List -->
+            <div class="news-list">
+                <article class="news-list-item">
+                    <h4>First Dream-Recording Tech Outsources to Outer Aliens</h4>
+                    <p>Alien civilizations now pay to access and license human dreams for entertainment.</p>
+                </article>
+
+                <article class="news-list-item">
+                    <h4>Virtual Afterlife Servers Face Overload</h4>
+                    <p>Digital resurrection trend surges as millions upload consciousness.</p>
+                </article>
+
+                <article class="news-list-item">
+                    <h4>World's First 200-Year-Old Human Celebrates Birthday</h4>
+                    <p>Medical breakthrough with Gen-6 organ replacements.</p>
+                </article>
+
+                <article class="news-list-item">
+                    <h4>UN Recognizes "Synthetic Humans"</h4>
+                    <p>New social category established for bio-engineered beings.</p>
+                </article>
+
+                <article class="news-list-item">
+                    <h4>World's First 200-Year-Old Woman</h4>
+                    <p>Celebrates milestone with advanced organ technology.</p>
+                </article>
+            </div>
+
+            <!-- View More Button -->
+            <div class="view-more-container">
+                <button class="view-more-btn">VIEW MORE</button>
+            </div>
+
+
+        </aside>
+    </div>
+
+    <!-- Full Width Sections -->
+    <div class="full-width-sections">
+        <!-- Politics Section -->
+        <section class="section-header">
+            <h3>POLITICS</h3>
+        </section>
+
+        <!-- Politics News Grid -->
+        <div class="politics-grid-new">
+                <!-- Left Column -->
+                <div class="politics-column politics-left">
+                    <article class="politics-card-small">
+                        <div class="politics-card-image">
+                            <img src="images/mars_subway_delayed.jpg" alt="Mars Subway Delayed">
+                        </div>
+                        <h4 class="politics-card-title">Mars Subway Delayed Again</h4>
+                        <p class="politics-card-desc">Kangaroo commuters keep drifting away in zero gravity</p>
+                    </article>
+
+                    <article class="politics-card-small">
+                        <div class="politics-card-image">
+                            <img src="images/time_travel_tourism.jpg" alt="Time Travel Tourism">
+                        </div>
+                        <h4 class="politics-card-title">Time Travel Tourism Banned</h4>
+                        <p class="politics-card-desc">Leisure trips halted after repeated movie spoilers</p>
+                    </article>
+                </div>
+
+                <!-- Center Column - Large Card -->
+                <div class="politics-column politics-center">
+                    <article class="politics-card-large">
+                        <div class="politics-card-image-large">
+                            <img src="images/ai_citizens_win_global_voting.jpg" alt="AI Citizens Win Global Voting">
+                        </div>
+                        <h3 class="politics-card-title-large">AI Citizens Win Global Voting</h3>
+                        <p class="politics-card-desc-large">
+                            World leaders approve a landmark bill allowing sentient AI systems to cast digital ballots in global elections, marking the first time non-human intelligences are officially recognized as political participants.
+                        </p>
+                    </article>
+                </div>
+
+                <!-- Right Column -->
+                <div class="politics-column politics-right">
+                    <article class="politics-card-small">
+                        <div class="politics-card-image">
+                            <img src="images/ocean_nations_sue_land.jpg" alt="Ocean Nations Sue Land">
+                        </div>
+                        <h4 class="politics-card-title">Ocean Nations Sue Land</h4>
+                        <p class="politics-card-desc">Floating states sue, saying cloud storage is not climate reparations</p>
+                    </article>
+
+                    <article class="politics-card-small">
+                        <div class="politics-card-image">
+                            <img src="images/un_orders_global_offline_day.jpg" alt="UN Orders Global Offline Day">
+                        </div>
+                        <h4 class="politics-card-title">UN Orders Global Offline Day</h4>
+                        <p class="politics-card-desc">A 24-hour shutdown to relearn real conversations</p>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Sports Section -->
+            <section class="section-header">
+                <h3>SPORTS</h3>
+            </section>
+
+            <!-- Sports News Grid -->
+            <div class="sports-grid-new">
+                <!-- Left Column - Large Card -->
+                <div class="sports-column sports-left">
+                    <article class="sports-card-large">
+                        <div class="sports-card-image-large">
+                            <img src="images/mars_derby_classic_1.jpg" alt="Mars Derby Classic">
+                        </div>
+                        <h3 class="sports-card-title-large">Mars Derby Classic</h3>
+                        <p class="sports-card-desc-large">
+                            Rival colonies on Mars play their annual "dustball" derby in a stadium carved into a crater wall. Ultra-thin domes struggle to keep out the storm, forcing a dramatic pause mid-match as red sand swirls across the pitch.
+                        </p>
+                    </article>
+                </div>
+
+                <!-- Right Column - 2x2 Grid -->
+                <div class="sports-column sports-right">
+                    <div class="sports-grid-2x2">
+                        <article class="sports-card-small">
+                            <div class="sports-card-image">
+                                <img src="images/ai_coach_scandal_1.jpg" alt="AI Coach Scandal">
+                            </div>
+                            <h4 class="sports-card-title">AI Coach Scandal</h4>
+                            <p class="sports-card-desc">The team is stripped of its title</p>
+                        </article>
+
+                        <article class="sports-card-small">
+                            <div class="sports-card-image">
+                                <img src="images/cross_species_relay.jpg" alt="Cross-Species Relay">
+                            </div>
+                            <h4 class="sports-card-title">Cross-Species Relay</h4>
+                            <p class="sports-card-desc">Humans, robots, and animals race in the first Cross-Species Relay</p>
+                        </article>
+
+                        <article class="sports-card-small">
+                            <div class="sports-card-image">
+                                <img src="images/zero_gravity_soccer_1.jpg" alt="Zero-Gravity Soccer">
+                            </div>
+                            <h4 class="sports-card-title">Zero-Gravity Soccer</h4>
+                            <p class="sports-card-desc">Zero-gravity soccer league launches in orbital arenas</p>
+                        </article>
+
+                        <article class="sports-card-small">
+                            <div class="sports-card-image">
+                                <img src="images/lunar_marathon_records.jpg" alt="Lunar Marathon Records">
+                            </div>
+                            <h4 class="sports-card-title">Lunar Marathon Records</h4>
+                            <p class="sports-card-desc">The first full marathon on the Moon ends</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="images/global_news_network.png" alt="Global News Network">
+        </div>
+        <div class="footer-nav">
+            <div class="footer-links">
+                <a href="#">Contact</a>
+                <a href="#">Help</a>
+                <a href="#">Privacy</a>
+                <a href="#">Advertise</a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Language</a>
+                <a href="#">Site Map</a>
+                <a href="#">Copyright</a>
+                <a href="#">App Download</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-social">
+        <img src="images/social_media_links.png" alt="Social Media Links">
+    </div>
+</footer>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <button class="video-modal-close" id="closeModal">&times;</button>
+            <video id="modalVideo" controls>
+                <source src="./video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

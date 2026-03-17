@@ -1,5 +1,7 @@
 ## Project Display: https://kinley1212.github.io/Tomorrow-Times/
 
+---
+
 ## Project Overview
 
 This project is a **group coursework** developed between **November 2025 and December 2025**
@@ -9,7 +11,6 @@ This project is a **group coursework** developed between **November 2025 and Dec
 The project blends plausible scientific predictions with inspirations from science fiction films and novels, while referencing the structure and interaction patterns of today’s leading global news platforms.
 
 The goal is to imagine how news content, visual language, and user experience might evolve in the future, and to design an innovative media platform capable of presenting future news topics that could attract and engage audiences.
-
 
 ---
 

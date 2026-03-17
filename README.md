@@ -1,4 +1,4 @@
-## Project Display: https://kinley1212.github.io/Tomorrow-Times/
+### Project Display: https://kinley1212.github.io/Tomorrow-Times/
 
 ---
 
